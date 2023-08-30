@@ -37,9 +37,7 @@ let lista = [producto1, producto2, producto3, producto4, producto5,
   producto11, producto12, producto13, producto14, producto15, 
   producto16, producto17, producto18, producto19, producto20]
 
-
 // STORAGE
-
 
 if (localStorage.getItem("productos")) {
 lista = JSON.parse(localStorage.getItem("productos"));
@@ -51,12 +49,12 @@ lista = lista
 
 function filtrar(){
 
-    Swal.fire({
-        title: 'Ingresa el producto que deseas buscar',
-        input: 'text',
-        showCancelButton: true,
-        confirmButtonText: 'Buscar',
-        showLoaderOnConfirm: true,
+  Swal.fire({
+    title: 'Ingresa el producto que deseas buscar',
+    input: 'text',
+    showCancelButton: true,
+    confirmButtonText: 'Buscar',
+    showLoaderOnConfirm: true,
 
         preConfirm: (palabraClave) => {
             palabraClave = palabraClave.trim().toUpperCase()
@@ -85,10 +83,7 @@ function filtrar(){
 
 }
 
-
 // FUNCION AGREGAR SIN LIBRERIA
-
-
 
 function agregarProducto() {
 
@@ -132,25 +127,17 @@ function agregarProducto() {
 
     lista.push(producto);
 
-
     localStorage.setItem("productos", JSON.stringify(lista));
-
     alert(`Se ha agregado el producto "${producto.nombre}".`);
-
 
     form.reset();
   });
 
-  
   body.appendChild(form);
 
 }
 
-
-
 // CODIGO CREADO POR DOM
-
-
 
 let contenedor = document.createElement("div")
 
@@ -165,8 +152,6 @@ contenedor.innerHTML = `
 			  			<div class="count-products">
 				  			<span id="contador-productos">0</span>
 			  			</div>
-				
-				
 				</div>
 			
 			<div class="container-cart-products  hidden-cart">
@@ -182,35 +167,20 @@ contenedor.innerHTML = `
   						<path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
 					</svg>
 				</div>
-				
-				
-				
 				</div>
-				
-
 				<div class="cart-total">
 					<h3>Total:</h3>
 					<span class="total-pagar">$500</span>
 				</div>
-			</div>
-			</div>
-			</header>
+			  </div>
+			  </div>
+			  </header>
 
               <h2>Productos disponibles:</h2>
               <div id="contenedorFrutas"></div>
               <input type="text" id="filtrarProducto">
               <button id="filtrar">Filtrar</button>
               <button id="agregar">Agregar producto nuevo</button>
-			  
-
-
-			 
-			 
-			 
-			 
-			 
-			 
-			 
 			  `
 
 document.body.appendChild(contenedor)

@@ -1,5 +1,3 @@
-
-
 let contenedor = document.createElement(`div`)
 
 contenedor.innerHTML = `<h1 class = "tituloPrincipal">Bienvenidos a Frulicius</h1>
