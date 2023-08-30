@@ -1,0 +1,194 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#00bd1f, rgb(253, 185, 0));
+}
+
+#listaFinal {
+    list-style: none;
+    
+}
+
+/* HEADER PRODUCTOS*/
+
+.tituloProductos {
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 103, 0);
+}
+
+.iconCAR {
+    width: 40px;
+    color: green;
+    margin: 50px;
+    
+}
+
+.iconCAR:hover{
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+
+
+.container-icon {
+    position: relative;
+}
+
+.count-products {
+    position: absolute;
+    top: 40%;
+    left: 62%;
+
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+
+}
+
+#contador-productos {
+    font-size: 15px;
+}
+
+.container-cart-products {
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+    background-color: #ffffff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius:  10px;
+    
+
+}
+
+.cart-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.info-cart-product {
+    display: flex;
+    justify-content: space-between;
+    /* YO LO PUSE EL ALIGN */
+    align-items: center;  
+    flex: 0.8;
+    
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+
+}
+
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+
+
+}
+
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+
+
+
+}
+.id-producto-carrito{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+
+
+}
+
+
+.iconCLOSE {
+    width: 25px;
+    height: 25px;
+}
+
+.iconCLOSE:hover{
+    stroke: red;
+    cursor: pointer;
+
+}
+
+
+.cart-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart {
+    display: none;
+}
+
+
+
+/* INDEX */
+
+.tituloPrincipal{
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 103, 0);
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.enlace {
+    display: flex;
+    justify-content:  center;
+    cursor: pointer;
+}
+
+
+
+
+/* BOTON AGREGAR AL CARRITO */
+
+.agregar {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    cursor: pointer ;
+}

@@ -1,0 +1,124 @@
+{
+    "productos": [
+    {
+      "nombre": "Banano",
+      "precio": 500,
+      "stock": 100,
+      "id": 111
+    },
+    {
+        "nombre": "Manzana",
+        "precio": 500,
+        "stock": 200,
+        "id": 222
+      },
+      {
+        "nombre": "Kiwi",
+        "precio": 700,
+        "stock": 210,
+        "id": 333
+      },
+      {
+        "nombre": "Cereza",
+        "precio": 200,
+        "stock": 110,
+        "id": 444
+      },
+      {
+        "nombre": "Pera",
+        "precio": 300,
+        "stock": 50,
+        "id": 555
+      },
+      {
+        "nombre": "Piña",
+        "precio": 400,
+        "stock": 10,
+        "id": 666
+      },
+      {
+        "nombre": "Limon",
+        "precio": 120,
+        "stock": 20,
+        "id": 777
+      },
+      {
+        "nombre": "Sandia",
+        "precio": 1200,
+        "stock": 25,
+        "id": 888
+      },
+      {
+        "nombre": "Naranja",
+        "precio": 155,
+        "stock": 30,
+        "id": 999
+      },
+      {
+        "nombre": "Melon",
+        "precio": 900,
+        "stock": 150,
+        "id": 122
+      },
+      {
+        "nombre": "Brocoli",
+        "precio": 170,
+        "stock": 250,
+        "id": 133
+      },
+      {
+        "nombre": "Tomate",
+        "precio": 250,
+        "stock": 350,
+        "id": 144
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio": 280,
+        "stock": 50,
+        "id": 155
+      },
+      {
+        "nombre": "Lulo",
+        "precio": 300,
+        "stock": 30,
+        "id": 166
+      },
+      {
+        "nombre": "Calabaza",
+        "precio": 800,
+        "stock": 1000,
+        "id": 177
+      },
+      {
+        "nombre": "Papaya",
+        "precio": 700,
+        "stock": 1200,
+        "id": 188
+      },
+      {
+        "nombre": "Uva",
+        "precio": 30,
+        "stock": 400,
+        "id": 199
+      },
+      {
+        "nombre": "Fresa",
+        "precio": 45,
+        "stock": 455,
+        "id": 211
+      },
+      {
+        "nombre": "Guayaba",
+        "precio": 78,
+        "stock": 600,
+        "id": 222
+      },
+      {
+        "nombre": "Coco",
+        "precio": 1400,
+        "stock": 300,
+        "id": 233
+      }
+  ]
+}
